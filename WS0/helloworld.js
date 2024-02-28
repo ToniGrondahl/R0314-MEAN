@@ -6,7 +6,7 @@ http.createServer(function (request, response) {
     response.write("<strong>Taulukko</strong>");
 
     var data =
-    "<table border='2'><tr><th style='color: blue;'>Name</th><th style='color: red;'><a href='https://www.laurea.fi/'>Address</a></th><th style='color: green;'>City</th></tr><tr><td>Matti Meikäläinen</td><td>Timotie 1, as 10</td><td>Tampere</td></tr><tr><td>Maija Virtanen</td><td>Asematie 12</td><td>Kiljava</td></tr></table>";
+     "<table border='2'><tr><th style='color: blue;'>Name</th><th style='color: red;'><a href='https://www.laurea.fi/'>Address</a></th><th style='color: green;'>City</th></tr><tr><td>Matti Meikäläinen</td><td>Timotie 1, as 10</td><td>Tampere</td></tr><tr><td>Maija Virtanen</td><td>Asematie 12</td><td>Kiljava</td></tr></table>";
   response.write(data);
   response.end("<strong>This is the end</strong>"); //end the response
 }).listen(8081);
